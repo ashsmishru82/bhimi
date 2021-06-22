@@ -1,0 +1,62 @@
+.section_width_height{
+    width: 100%;
+    height:60%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+$shadow:30px 10px 4px yellow;
+
+@mixin images {
+    width: 200px;
+    height: 200px;
+    border-width: 2px;
+    box-shadow: burlywood;
+    
+}
+body{
+    background-color: burlywood;
+    h1{
+        text-shadow: $shadow;
+    }
+}
+.section_1{
+    @extend .section_width_height;
+    font-size: 100px;
+   
+}
+
+.section_2{
+    @extend .section_width_height;
+    background-color: antiquewhite;
+    margin-top: 150px;
+    text-align: center;
+    width:600px;
+    padding: 200px;
+    margin-left: 250px;
+    margin-right: 300px;   
+}
+
+.section_3{
+    @extend .section_width_height;
+    background-color: coral;
+    width: 1000px;
+    padding: 200px;
+    margin-left: 50px;
+    margin-right: 400px;   
+    padding-top: 150px;
+}
+
+img{
+    @include images;
+    padding: 30px;
+}
+
+.img_1{
+    float: left;
+    
+}
+
+.img_2{
+    float: right;
+}
