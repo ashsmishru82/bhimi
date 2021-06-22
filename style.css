@@ -1,0 +1,55 @@
+.section_width_height, .section_1, .section_2, .section_3 {
+  width: 100%;
+  height: 60%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+body {
+  background-color: burlywood;
+}
+
+body h1 {
+  text-shadow: 30px 10px 4px yellow;
+}
+
+.section_1 {
+  font-size: 100px;
+}
+
+.section_2 {
+  background-color: antiquewhite;
+  margin-top: 150px;
+  text-align: center;
+  width: 600px;
+  padding: 200px;
+  margin-left: 250px;
+  margin-right: 300px;
+}
+
+.section_3 {
+  background-color: coral;
+  width: 1000px;
+  padding: 200px;
+  margin-left: 50px;
+  margin-right: 400px;
+  padding-top: 150px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-width: 2px;
+  -webkit-box-shadow: burlywood;
+          box-shadow: burlywood;
+  padding: 30px;
+}
+
+.img_1 {
+  float: left;
+}
+
+.img_2 {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
